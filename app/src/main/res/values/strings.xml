@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExoPace</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="Inclination">Orbital inclination measures the tilt of an object\'s orbit around a celestial body. It is expressed as the angle between a reference plane and the orbital plane or axis of direction of the orbiting object.</string>
+    <string name="edge_on">When angle of inclination is 0 degree or when the planet is in direct line of sight of the observer then it is called edge-on position</string>
+    <string name="face_on">When angle of inclination is 90 degree or when the planet is perpendicular to line of sight of the observer then it is called face-on position</string>
+    <string name="accuracy">So when the planet is in face-on position then we only know little about mass of the planet and thus it is considered that some planets discovered with spectroscopy might be too massive to be true planets.</string>
+    <string name="rogue">A rogue planet also termed free-floating is a planetary-mass object that orbits a galactic center directly.</string>
+    <string name="Hypothesis">Yes Life might be possible on such a planet until it not crashes into some other heavenly body. </string>
+    <string name="firstH">1. We need energy resource like sun and as such planet is way away from that star\'s resource, so it completely depends on heat from it\'s core if it\'s still ignited.</string>
+    <string name="secondH">2.If we are able to found such a high energy core then we have to look for trapping of that heat.</string>
+    <string name="thirdH">3.There might be insulation from a icesheet covering the planet but it should be at least 10 km thick or it must have a thick atmosphere(better option) but it needs to 10 to 100 times thicker for trapping the required energy for life.</string>
+    <string name="fourthH">4.If heat is trapped then conversion from it to food will be of very low efficiency. eg. chemoautotrophs</string>
+
+</resources>

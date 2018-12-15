@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoguePlanet"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:text="@string/Hypothesis"
+        android:layout_weight="1.5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textColor="#ffffff"
+        android:text="HYPOTHESIS"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:textColor="#ffffff"
+        android:text="@string/firstH"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#ffffff"
+        android:padding="4dp"
+        android:text="@string/secondH"
+        android:layout_weight="0.7"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#ffffff"
+        android:text="@string/thirdH"
+        android:padding="2dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#ffffff"
+        android:padding="4dp"
+        android:text="@string/fourthH"
+        android:layout_weight="0.7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Result"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:textColor="#ffffff"
+        android:text="I have found that in the dataset there are 101 planets without orbital period so they might either rogue planet or it's due to the technique used to discover it like imaging technique. "
+        android:textAlignment="center"/>
+</LinearLayout>

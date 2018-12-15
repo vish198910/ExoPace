@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IncliGraph"
+    android:background="#000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:text="As you can see that most of the planet discovered are in the edge-on position."/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src = "@drawable/inclination_coloured" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:text="Graph generated based on the exoplanet data available on Nasa's exoplanet Archive\n Libraries used are pandas, numpy and matplotlib for generation of the graph"/>
+
+</LinearLayout>

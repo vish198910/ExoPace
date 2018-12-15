@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistanceFromEarth"
+    android:background="#000000"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:padding="4dp"
+        android:text="Exoplanets far away strange planets which are now coming to our visual reach because of the advancements in space vision. As you can see from the graph below that most of the planets found are at distance less than 3000 parsecs and the farthes we have found is 8500 parsecs away from Earth."/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/planets_distance_from_sun_colourful"/>
+</LinearLayout>

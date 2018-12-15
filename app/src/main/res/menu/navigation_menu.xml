@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id= "@+id/Exoplanets"
+        android:title = "What are Exoplanets?">
+
+    </item>
+    <item android:id= "@+id/dis_from_earth"
+        android:title = "How far are they from earth?">
+
+    </item>
+    <item android:id= "@+id/inclination"
+        android:title = "How inclination helps?">
+
+    </item>
+    <item android:id= "@+id/orbital_period"
+        android:title = "What is there orbital period around their host star?">
+
+    </item>
+    <item android:id= "@+id/orphan_planet"
+        android:title = "Is it possible to live on a rogue planet?">
+
+    </item>
+    <item android:id = "@+id/facts"
+        android:title = "MaxMinResults"></item>
+
+</menu>

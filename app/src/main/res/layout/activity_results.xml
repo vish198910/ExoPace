@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Results">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Maximum Inclination\nKepler - 35 b >>>> 90.76 "
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Minimum Inclination\n HD 202206 >>>> 7.7 "
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Farthest Exoplanet \n SWEEPS-11 b and SWEEPS-4 b \n 8500 parsecs"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Nearest Exoplanet \n Proxima Cen B \n 1.29 parsecs"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Highest Orbital period \n 7300000.0 days"
+        android:layout_weight="1"/>
+
+</LinearLayout>

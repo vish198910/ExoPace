@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inclination"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:text="@string/Inclination"
+        android:padding="2dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src= "@drawable/inclination_angle"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:textSize="16sp"
+           android:text="@string/edge_on"
+           android:textColor="#ffffff"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:textSize="16sp"
+           android:textColor="#ffffff"
+           android:text="@string/face_on"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/accuracy"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:textColor="#ffffff"
+        android:layout_weight="0.8"/>
+    <Button
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:text="graphical result"
+        android:id="@+id/Graphical"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
